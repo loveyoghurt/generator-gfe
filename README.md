@@ -1,19 +1,22 @@
-# generator-aaa [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-gfe [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
+
+##介绍
+前端项目脚手架，支持生成vue项目和无框架项目（vue项目调用vue-cli）。在询问时输入项目类型以生成模板（因为windows环境的git bash无法使用方向键选择checkbox，所以这里使用输入字符的方法选择类型）。
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-aaa using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-gfe using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-aaa
+npm install -g generator-gfe
 ```
 
 Then generate your new project:
 
 ```bash
-yo aaa
+yo gfe
 ```
 
 ## Getting To Know Yeoman
@@ -25,14 +28,14 @@ yo aaa
 
 ## License
 
-Apache-2.0 © [xuchao211309]()
+MIT
 
 
-[npm-image]: https://badge.fury.io/js/generator-aaa.svg
-[npm-url]: https://npmjs.org/package/generator-aaa
-[travis-image]: https://travis-ci.org//generator-aaa.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-aaa
-[daviddm-image]: https://david-dm.org//generator-aaa.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-aaa
-[coveralls-image]: https://coveralls.io/repos//generator-aaa/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-aaa
+[npm-image]: https://badge.fury.io/js/generator-gfe.svg
+[npm-url]: https://npmjs.org/package/generator-gfe
+[travis-image]: https://travis-ci.org//generator-gfe.svg?branch=master
+[travis-url]: https://travis-ci.org//generator-gfe
+[daviddm-image]: https://david-dm.org//generator-gfe.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-gfe
+[coveralls-image]: https://coveralls.io/repos//generator-gfe/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-gfe

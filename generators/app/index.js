@@ -8,7 +8,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay('Welcome to the doozie ' + chalk.red('generator-aaa') + ' generator!')
+      yosay('Welcome to the doozie ' + chalk.red('generator-gfe') + ' generator!')
     );
 
     const prompts = [
@@ -60,6 +60,8 @@ module.exports = class extends Generator {
   }
 
   writing() {
+    yosay('---------- ' + chalk.red('generator-gfe') + ' --------------!')
+    console.log(this.props.templateName);
     if (this.props.templateName == 'noframe') {
       this.fs.copy(this.templatePath('./noframe'), this.destinationPath('./'));
     }
